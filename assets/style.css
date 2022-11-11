@@ -1,0 +1,19 @@
+.nav {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-height: fit-content;
+    display: inline-flex;
+};
+
+.nav-center {
+    justify-content: space-evenly;
+}
+
+li {
+    list-style: none;
+    display: inline-flex;
+    font-size: medium;
+    font-family: fantasy;
+    padding: 2px;
+}
