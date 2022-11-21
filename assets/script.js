@@ -4,10 +4,16 @@ const btn = document.getElementById("btn");
 
 const color = document.querySelector(".color");
 
+
+
 btn.addEventListener("click", () => {
+const randomNumber = getRandomNumber()
+
 document.body.style.backgroundColor = colors[randomNumber];
 
-color.textContent=colors;
+color.textContent = colors[randomNumber];
 });
 
-randomNumber = () => Math.floor(Math.random() * colors.length);
+function getRandomNumber () {
+   return Math.floor(Math.random() * colors.length);
+};
